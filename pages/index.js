@@ -216,7 +216,7 @@ const Home = () => {
     <div className={styles.app}>
       <div className={styles.game}>
         {currentColorArrangement.map((candyColor, index) => (
-          <img
+          <Image
             key={index}
             src={candyColor}
             alt={candyColor}
